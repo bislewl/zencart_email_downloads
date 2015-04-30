@@ -1,0 +1,9 @@
+{
+    "plugin_id": "1953",
+    "github_repo": "https://github.com/bislewl/zencart_email_downloads",
+    "name": "Email Downloads",
+    "author": "mprough",
+    "description": "This module adds a \"email download\" with customized message to your admin orders screen, if a download is purchased. Many times people fail to download their order, then maybe can't login and many other troublesome issues happen with downloads. Now, you can easily resend the download to their email, as an attachment when troubles arise. Huge timesaver from FTP to fetch the download, typing an all new email every time etc.",
+    "versions_supported": "1.3.9h,1.5.0,1.5.1,1.5.2,1.5.3,1.5.4",
+    "support_thread": ""
+}
