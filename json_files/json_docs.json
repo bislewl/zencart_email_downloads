@@ -1,6 +1,6 @@
 {
         "moduleName": "Email Downloads from Orders Screen",
-        "version" : "1.2.0",
+        "version" : "1.1.1",
         "zcVersion" : "1.5.4",
         "about" : "This module adds a \"email download\" with customized message to your admin orders screen, if a download is purchased. Many times people fail to download their order, then maybe can't login and many other troublesome issues happen with downloads. Now, you can easily resend the download to their email, as an attachment when troubles arise. Huge timesaver from FTP to fetch the download, typing an all new email every time etc.",
         "releases" : [ 
@@ -17,18 +17,8 @@
         ],
         "releases" : [ 
                     {"date" : "04/30/2015",
-                    "version" : "1.0.2",
-                    "description" : "PRO-Webs.net  Modified Files to update from 1.5.4; reorganization; bug fixes",
-                    "user" : "PRO-Webs.net"}
-        ],"releases" : [ 
-                    {"date" : "04/30/2015",
                     "version" : "1.1.1",
-                    "description" : "Improved Documentation",
-                    "user" : "PRO-Webs.net"}
-        ],"releases" : [ 
-                    {"date" : "04/30/2015",
-                    "version" : "1.2.0",
-                    "description" : "Added Comments in Changed Core File",
+                    "description" : "Modified Files to update from 1.5.4; reorganization; bug fixes",
                     "user" : "PRO-Webs.net"}
         ],
         "featuresHeading" : "Email Downloads Module for Zen Cart 1.5.4 Features",
