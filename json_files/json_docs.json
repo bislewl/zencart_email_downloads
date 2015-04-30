@@ -1,0 +1,45 @@
+{
+        "moduleName": "Email Downloads",
+        "version" : "1.1.0",
+        "zcVersion" : "1.5.4",
+        "about" : "This module adds a \"email download\" with customized message to your admin orders screen, if a download is purchased. Many times people fail to download their order, then maybe can't login and many other troublesome issues happen with downloads. Now, you can easily resend the download to their email, as an attachment when troubles arise. Huge timesaver from FTP to fetch the download, typing an all new email every time etc.",
+        "releases" : [ 
+                    {"date" : "10/03/2014",
+                    "version" : "1.0.0",
+                    "description" : "Initial Release",
+                    "user" : "PRO-Webs.net"}
+        ],
+        "releases" : [ 
+                    {"date" : "01/13/2015",
+                    "version" : "1.0.1",
+                    "description" : "Zen Cart version 1.5.4 update",
+                    "user" : "PRO-Webs.net"}
+        ],
+        "releases" : [ 
+                    {"date" : "04/30/2015",
+                    "version" : "1.1.0",
+                    "description" : "Modified Files to update from 1.5.4",
+                    "user" : "PRO-Webs.net"}
+        ],
+        "featuresHeading" : "Email Downloads Module for Zen Cart 1.5.4 Features",
+        "features" : [
+            "adds a \"email download\" with customized message to your admin orders screen, if a download is purchased",
+            "Database Changes: No",
+            "Core File Edits: Core File Edits"
+            ],
+        "featuresFooter" : "<p>Need this module installed for you? We can do that <a href=\"https://zencart.codes/index.php?main_page=product_info&cPath=32&products_id=39\">here >></a></p>",
+        "installationHeader" : "<p>Need this module installed for you? We can do that <a href=\"https://zencart.codes/index.php?main_page=product_info&cPath=32&products_id=39\">here &gt;&gt;</a></p>",
+        "installationSteps" :
+        [
+        "!!!! Backup your database and affected files !!!!",
+        "Rename your admin to your own secret admin folder name. Upload the files in the module catalog folder to the matching file structure in your Zen Cart directory.",
+        "Merge Your File Changes"
+        ],
+        "tips" : [],
+        "uninstallSteps" : [
+            "Backup your Files and Database",
+            "Remove the files installed",
+            "Revert the changed files"
+        ],
+        "credits" : ["Custom built By Pro-Webs.net"]
+}
