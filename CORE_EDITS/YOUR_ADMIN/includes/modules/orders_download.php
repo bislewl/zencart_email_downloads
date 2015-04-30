@@ -16,7 +16,7 @@ if (!defined('IS_ADMIN_FLAG')) {
   // select downloads for current order
   $orders_download_query = "select * from " . TABLE_ORDERS_PRODUCTS_DOWNLOAD . " where orders_id='" . (int)$_GET['oID'] . "'";
   $orders_download = $db->Execute($orders_download_query);
-// added for Email Downloads from Orders Screen 
+// bof added for Email Downloads from Orders Screen 
   $email_stock_content = 'Dear Customer,<br/><br/>'
           . "Thank you for contacting us about the problem with your download. We are sorry you had a problem accessing the product you purchased. To be sure you receive it, we have attached your product to this email.<br/><br/>"
         . 'Thanks for shopping!</br>'
@@ -26,7 +26,7 @@ if (!defined('IS_ADMIN_FLAG')) {
 // only display if there are downloads to display
   if ($orders_download->RecordCount() > 0) {
 ?>
-<!-- added for Email Downloads from Orders Screen  -->
+<!-- bof added for Email Downloads from Orders Screen  -->
 <script type="text/javascript">
 <!--
 function init()
@@ -40,7 +40,7 @@ function init()
 <!-- eof added for Email Downloads from Orders Screen    -->
 
       <tr>
-<!-- edited for Email Downloads from Orders Screen -->     
+<!-- bof edited for Email Downloads from Orders Screen -->     
         <td class="main">
             <?php echo zen_draw_form('email_files',EMAIL_DOWNLOADS_FILENAME);?>
             <table border="1" cellspacing="0" cellpadding="5">
@@ -58,7 +58,7 @@ function init()
             <td class="smallText" align="left"><?php echo TEXT_DOWNLOAD_FILENAME; ?></td>
             <td class="smallText" align="center"><?php echo TEXT_DOWNLOAD_MAX_DAYS; ?></td>
             <td class="smallText" align="center"><?php echo TEXT_DOWNLOAD_MAX_COUNT; ?></td>
-<!--  added for Email Downloads from Orders Screen  -->          
+<!--  bof added for Email Downloads from Orders Screen  -->          
             <td class="smallText" align="center">Email</td>
 <!--  eof added for Email Downloads from Orders Screen   -->           
           </tr>
@@ -100,12 +100,12 @@ function init()
 ?>
           <tr>
             <td class="smallText" align="center"><?php echo $zc_file_status; ?></td>
-<!-- edited for Email Downloads from Orders Screen-->            
+<!-- bof edited for Email Downloads from Orders Screen-->            
             <td class="smallText" align="center"><?php echo $orders_download->fields['orders_products_filename']; ?></td>
 <!-- eof edited for Email Downloads from Orders Screen --> 
             <td class="smallText" align="center"><?php echo $orders_download->fields['download_maxdays']; ?></td>
             <td class="smallText" align="center"><?php echo $orders_download->fields['download_count']; ?></td>
-<!-- added for Email Downloads from Orders Screen  -->           
+<!-- bof added for Email Downloads from Orders Screen  -->           
             <td class="smallText" align="left"><?php echo zen_draw_radio_field("download_files[]","download/".$orders_download->fields['orders_products_filename'],true); ?></td>
 <!-- eof added for Email Downloads from Orders Screen            
           </tr>
@@ -113,7 +113,7 @@ function init()
         $orders_download->MoveNext();
     }
 ?>
-<!-- added for Email Downloads from Orders Screen -->
+<!-- bof added for Email Downloads from Orders Screen -->
             </table>
             <table>
         <?php
